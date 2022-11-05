@@ -2,26 +2,6 @@ if game.CoreGui:FindFirstChild("PepsiUi") then
     game.CoreGui:FindFirstChild("PepsiUi"):Destroy()
 end
 
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Best Hub Hate Aloha Guild", 
-	Text = "Check..",
-	Icon = "http://www.roblox.com/asset/?id=11467626666",
-	Duration = 1
-})
-
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Best Hub Hate Aloha Guild", 
-	Text = "Check....",
-	Icon = "http://www.roblox.com/asset/?id=11467626666",
-	Duration = 1
-})
-
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Best Hub Hate Aloha Guild", 
-	Text = "Successfully",
-	Icon = "http://www.roblox.com/asset/?id=11467626666",
-	Duration = 2
-})
 local library = {
 	WorkspaceName = "Name",
 	flags = {},
