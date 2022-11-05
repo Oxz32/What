@@ -5950,3 +5950,4 @@ library.Window = library.CreateWindow
 library.W = library.CreateWindow
 
 local Wait = library.subs.Wait
+return Hee
