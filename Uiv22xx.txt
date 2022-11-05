@@ -5950,4 +5950,20 @@ library.Window = library.CreateWindow
 library.W = library.CreateWindow
 
 local Wait = library.subs.Wait
-return Hee
+			game:GetService("UserInputService").InputBegan:connect(
+			function(current, pressed)
+				if not pressed then
+					if current.KeyCode.Name == Key then
+						pcall(callback)
+					end
+				end
+			end
+			)
+
+			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
+		end
+		return ContainerContent
+	end
+	return Tabs
+end
+return Flux
