@@ -199,7 +199,6 @@ local SaveManager = {} do
 		end)
 		
 		Server:AddButton('Hop Server', function()
-			function HopServer()
 				local PlaceID = game.PlaceId
 				local AllIDs = {}
 				local foundAnything = ""
@@ -259,7 +258,6 @@ local SaveManager = {} do
 					end
 				end
 				xxx()
-			end
 		end)
 
 		local section = tab:AddRightGroupbox('Configuration')
