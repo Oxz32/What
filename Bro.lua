@@ -195,11 +195,11 @@ local SaveManager = {} do
 
 		local Server = tab:AddRightGroupbox('Server')
 		
-		local MyButton = Server:AddButton('Rejoin', function()
+		local xxx = Server:AddButton('Rejoin', function()
     		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 		end)
 		
-		local MyButton2 = MyButton:AddButton('Hop Server', function()
+		local cxx1 = xxx:AddButton('Hop Server', function()
  		print("Kuy")
 		end)
 		
