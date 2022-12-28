@@ -1,11 +1,11 @@
 local httpService = game:GetService('HttpService')
 local ThemeManager = {} do
-	ThemeManager.Folder = 'ThemeBest'
+	ThemeManager.Folder = 'ThemeSunny'
 	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Best Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0e0c0c","AccentColor":"ff0000","BackgroundColor":"000000","OutlineColor":"424242"}') },
+		['Sunny X Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"00ffff","MainColor":"0e0c0c","AccentColor":"00ffff","BackgroundColor":"000000","OutlineColor":"242424"}') },
 		['Dracula'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232533","AccentColor":"6271a5","BackgroundColor":"1b1c27","OutlineColor":"7c82a7"}') },
 		['Bitch Bot'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Yellow'] 		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"30333b","AccentColor":"ffaa00","BackgroundColor":"1a1c20","OutlineColor":"141414"}') },
