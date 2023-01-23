@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Sunny X Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"00ffff","MainColor":"0e0c0c","AccentColor":"00ffff","BackgroundColor":"000000","OutlineColor":"242424"}') },
+		['Sunny X Hub'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"292929","AccentColor":"ffffff","BackgroundColor":"292929","OutlineColor":"242424"}') },
 		['Dracula'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232533","AccentColor":"6271a5","BackgroundColor":"1b1c27","OutlineColor":"7c82a7"}') },
 		['Bitch Bot'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 		['Yellow'] 		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"30333b","AccentColor":"ffaa00","BackgroundColor":"1a1c20","OutlineColor":"141414"}') },
