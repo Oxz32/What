@@ -202,6 +202,7 @@ game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Playe
 end)
 
 local cxx1=xxx:AddButton('Hop Server', function()
+Library:Notify('Hopping...')				
 local PlaceID=game.PlaceId
 local AllIDs={}
 local foundAnything=""
